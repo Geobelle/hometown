@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Purple Purse", serif;
+    font-family: "Quicksand", sans-serif;
+    
+    
+}
+    
+  h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+.icon {
+    font-family: "Purple Purse", serif;
+    font-size: 48px;
+    background: -webkit-linear-gradient(#DDB219, #AD5E15);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 300px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+#zuma{
+    height: 280px;
+    width: 360px;
+    border-radius: 8px;
+    background-image: url("images/Zuma-Rock-photo-13-56af4b1a54c93.jpg");
+    background-size: cover;
+    margin-right: 20px;
+}
+#zuma:hover{
+    background-image: url("images/aerialzuma.gif"); 
+}
+#nike {
+    height: 280px;
+    width: 360px;
+    border-radius: 8px;
+    background-image: url("images/nike4.jpg");
+    background-size: cover;
+    margin-right: 20px;
+}
+#nike:hover {
+background-image: url("images/nike-art.gif"); 
+}
+
+#mosque {
+    height: 280px;
+    width: 360px;
+    border-radius: 8px;
+    background-image: url("images/1-Abuja-Main-700x440.jpg");
+    background-size: cover;
+}
+#mosque:hover {
+    background-image: url("images/091302074-aerial-view-national-mosque-ab-ezgif.com-video-to-gif-converter.gif"); 
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+
+   display: flex;
+   align-items: top;
+   
+}
+.top_nav {
+    margin-left: 40px;
+    
+}
+.hero {
+display: block;
+width: 1440px;
+   height: 800px ;
+   background-image: url("images/abuja-1589282102432.webp");
+    background-size: cover;
+}
+
+#main {
+    font-family: "Purple Purse", serif;
+    background: -webkit-linear-gradient(#FAD966, #DD1919);
+    background-clip: text;
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    font-size: 200px;
+    margin-bottom: 20px;
+}
+#type {
+    font-family: "Purple Purse", serif;
+    font-size: 32px;
+    color: #f0f0f0;
+    background: rgba(0, 0, 0, 0.26);
+    width: 426px;
+margin: auto;
+}
+h3 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 36px;
+}
+.card {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    border: 2px solid lightsalmon;
+    border-radius: 8px;
+    width: 400px;
+    height: 300px;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: beige;
+    color: #800020;
+    box-shadow: 4px 4px 20px 2px lightgrey;
+}
+img {
+    align-items: center;
+    width: 300px;
+    border-radius: 8px;
+    height: 150px;
+    margin: auto 0px;
+}
+p {
+    width: 400px;
+    margin: 0;
+}
